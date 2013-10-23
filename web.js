@@ -3,7 +3,7 @@ var app = express();
 app.use(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('Bonjour Corinne, ceci est un test de votre doudou préféré !! :D Bonne journée à vous et reposez vous bien !!!');  
+  response.send('PLOP PLOP CEDRIC IS THE BEST ???');  
 });
 
 var port = process.env.PORT || 5000;
